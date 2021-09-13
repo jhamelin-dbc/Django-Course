@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}About Title{% endblock %}
+
+{% block content %}
+This is my about page! My name is {% include 'snippets/my_name.html' %}!
+<br/><br/>
+-{{ first_name }}
+{% endblock %}
